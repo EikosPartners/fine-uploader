@@ -23,7 +23,7 @@ selenium.log*
 root-server.PID
 test-resources-server.PID
 
-fine-uploader/
+#fine-uploader/
 test/upload/*
 test/uploadsTemp/
 test/coverage/*
