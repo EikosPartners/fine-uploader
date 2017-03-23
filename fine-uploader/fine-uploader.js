@@ -2774,7 +2774,7 @@
                 if (options.allowXRequestedWithAndCacheControl) {
                     if (!options.cors.expected || (!isSimpleMethod() || containsNonSimpleHeaders(customHeaders))) {
                         xhr.setRequestHeader("X-Requested-With", "XMLHttpRequest");
-                        xhr.setRequestHeader("Cache-Control", "no-cache");
+                        // xhr.setRequestHeader("Cache-Control", "no-cache");
                     }
                 }
                 if (options.contentType && (method === "POST" || method === "PUT")) {
